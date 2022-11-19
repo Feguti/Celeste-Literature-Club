@@ -18,7 +18,7 @@ a:hover {
 }
 
 .bg-primary {
-  background-color: #5088D1 !important;
+  background-color: #2C91F6 !important;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -44,7 +44,7 @@ a {
 }
 
 .bg-dark {
-  background-color: #5088D1 !important;
+  background-color: #2C91F6 !important;
 }
 
 hr {
@@ -202,7 +202,7 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   display: flex;
   width: auto;
   height: auto;
-  max-height: 520px;
+  max-height: 535px;
   margin: 20px;
 }
 
@@ -275,6 +275,7 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 .product .popup-card .info p{
   font-size: 15px;
   margin-top: 5px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .product .popup-card .info .add-cart-btn{
