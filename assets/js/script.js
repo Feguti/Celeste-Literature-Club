@@ -88,5 +88,27 @@ productContainers.forEach((item, i) => {
     })
 })
 
+document.addEventListener('DOMContentLoaded', function(){
+  let correct = document.querySelectorAll(".correct");
+  let incorrect = document.querySelectorAll(".incorrect");
+  let message = document.querySelector("#message");
+  
+  for(let i = 0; i < correct.length; i++){
+    correct[i].addEventListener('click', function(){
+        correct[i].style.backgroundColor = "green"
+        message.style.color = 'green';
+        message.innerHTML = "Correct!"
+    })
+}
+  
+  for(let i = 0; i < incorrect.length; i++){
+      incorrect[i].addEventListener('click', function(){
+          incorrect[i].style.backgroundColor = "red"
+          message.style.color = 'red';
+          message.innerHTML = "Incorrect!"
+      })
+  }
+});
+
 
 

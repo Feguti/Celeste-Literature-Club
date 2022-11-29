@@ -285,7 +285,7 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 
 /*Responsive styles*/
 
-@media only screen and (max-width: 1190px){
+@media only screen and (max-width: 1177px){
   .product .popup-card{
     flex-direction: column;
     width: 550px;
@@ -302,7 +302,7 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   .product .popup-card .product-img img{
     display: flex;
     position:absolute;
-    left: 275px;
+    left: 283px;
     top: 60px;
     width: 150px;
     height: 135px;
@@ -463,6 +463,8 @@ button:hover {
 .nxt-btn:hover img {
   opacity: 1;
 }
+
+
 
 
 
